@@ -19,6 +19,31 @@ ul{
     text-decoration: line-through;
 }
 
-li{
-    margin: 2vh
+#taskListDiv{
+    display: flex;
 }
+
+li{
+    margin: 2vh;
+    flex-grow: 7;
+}
+
+span{
+    margin-left: 20px;
+    padding: 5px;
+    width: 30vw;
+    background-color: #faaaaa;
+}
+
+ul li {
+    padding: 5px 250px;
+    cursor: pointer;
+    background:  #ffefab;
+    font-size: 18px;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
