@@ -18,3 +18,7 @@ ul{
 .check{
     text-decoration: line-through;
 }
+
+li{
+    margin: 2vh
+}
